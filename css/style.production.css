@@ -44,9 +44,9 @@ a:active {
 
 .profile__portrait {
   float: left;
+  width: 250px;
   margin-right: 40px;
   border-radius: 50%;
-  width: 250px;
 }
 
 .page-header {
@@ -66,8 +66,8 @@ a:active {
 
 .profile__text {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 100px;
-  flex: 1 1 100px;
+      -ms-flex: 1 1 100px;
+          flex: 1 1 100px;
 }
 
 .page-header__item:last-child {

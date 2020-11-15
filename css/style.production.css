@@ -17,7 +17,7 @@ body {
 
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 a {
@@ -285,7 +285,7 @@ button:focus {
 
 @media all and (min-width: 480px) and (max-width: 750px) {
   .profile__portrait {
-    width: auto;
+    width: 50%;
   }
 }
 

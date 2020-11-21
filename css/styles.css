@@ -138,14 +138,30 @@ button:focus {
 .about__header,
 .pabout,
 .ulabout,
-.contact,
 .contact__header {
   text-align: center;
   list-style-type: none;
 }
 
-.contact__container {
+.contact {
+  width: 85%;
+  max-width: 600px;
+  background: #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px, 40px;
+  box-sizing: border-box;
   text-align: center;
+}
+
+.contact__item {
+  border: 2px; solid: black;
+  margin: 7px, 0;
+  padding: 12px 18px;
+  border-radius: 10px;
+  
 }
 
 .about__me {

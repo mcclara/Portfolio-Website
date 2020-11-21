@@ -31,29 +31,27 @@
   </header>
     <div class="contact">
       <h1>Contact <span class="Me">ME!</span></h1>
-      <div>
-        Based in NYC/North NJ area<br>
-        USA<br>
-        <br>
-        Tel: <a href="tel:+3132474766">+313 2474766</a><br>
-        Skype: <a href="live:.cid.21cedd1b6e594a9d"> live:.cid.21cedd1b6e594a9d</a><br>
-        Email: <a href="mailto:angelicavmcclary@gmail.com">angelicavmcclary@gmail.com</a>
-      </div>
     </div>
-    <div class="contact__container">
       <form action="#" method="post">
-        <label class="standard-label" for="contact-email">Email: </label>
-        <input type="email" id="contact-email" required>
+        <div class="contact__item">
+          <label class="standard-label" for="contact-email">Email: </label>
+          <input type="email" id="contact-email" placeholder="Your Email" required>
+        </div>
 
-        <label>Telephone: </label>
-        <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+        <div class="contact__item">
+          <label>Telephone: </label>
+          <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="Your Phone Number">
+        </div>
 
-        <label>Message: </label>
-        <textarea maxlength="240" required></textarea>
+        <div class="contact__item">
+          <label>Message: </label>
+          <textarea maxlength="240" required></textarea>
+        </div>
 
-        <input type="submit" value="Send message">
+        <div>
+          <input type="submit" value="Send message">
+        </div>
       </form>
-    </div>
     <footer class="page-footer">
      <p>Find me on</p>
      <div class="social-media">
